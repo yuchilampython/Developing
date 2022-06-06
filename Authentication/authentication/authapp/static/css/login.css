@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+html{
+    height:100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*overflow: hidden;*/
+    background-image: url(images/login_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 75%;
+    border-radius: 25px;
+    background-color: black;
+    opacity:0.9;
+}
+
+.wrapper h1{
+    text-align: center;
+    padding: 15% 0 0 0;
+    color: white;
+}
+
+.wrapper #instruction{
+    text-align: center;
+    padding: 3% 0 0 0;
+    color: grey;
+}
+
+.wrapper form{
+    padding: 6% 10% 0 10%;
+    box-sizing: border-box;
+    color: white;
+}
+
+form .text-field{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 5% 0;
+}
+
+.text-field input{
+    width: 90%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    color:white;
+    outline: none;
+}
+
+.forgot{
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.forgot:hover{
+    color: white;
+}
+
+input[type='submit']{
+    display: block;
+    margin: 15% auto 0 auto;
+    padding: 10px 40px;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 38px;
+}
+
+.signup{
+    position: absolute;
+    width: 100%;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: white;
+}
+
+.signup a:link{
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup a:hover{
+    color: white;
+}
