@@ -27,7 +27,6 @@ def login(request):
             err_log = "Wrong username or password"
             return render(request, 'login.html', {'err_log': err_log})
 
-
 def signup(request):
     if request.method == "GET":
         return render(request, 'signup.html')
